@@ -42,7 +42,11 @@ class _MyAppState extends State<MyApp> {
                 ? Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      // Image.network(_googleSignIn.currentUser.photoUrl, height: 50.0, width: 50.0,),
+                      // Image.network(
+                      //   _googleSignIn.currentUser.photoUrl,
+                      //   height: 50.0,
+                      //   width: 50.0,
+                      // ),
                       Text(_googleSignIn.currentUser.displayName),
                       OutlineButton(
                         child: Text("Logout"),
