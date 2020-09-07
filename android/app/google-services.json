@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "328896552324",
+    "firebase_url": "https://indoor-navigation-bdc57.firebaseio.com",
+    "project_id": "indoor-navigation-bdc57",
+    "storage_bucket": "indoor-navigation-bdc57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328896552324:android:a76796d223735b996891d1",
+        "android_client_info": {
+          "package_name": "com.smoketrees.indoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328896552324-s414nar36un901lmt5s719ev7netfqqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuUnPplR-Cnu_kee2eheCeAzfUCRQ_exA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328896552324-s414nar36un901lmt5s719ev7netfqqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328896552324:android:9ce84d7ccce4091e6891d1",
+        "android_client_info": {
+          "package_name": "com.smoketrees.navagar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328896552324-q3kb2fp5ngl3dklrf5i9ra3g7ucrnemv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smoketrees.navagar",
+            "certificate_hash": "5606e47f70f14f1e945dc2d095c66555ca93d7ed"
+          }
+        },
+        {
+          "client_id": "328896552324-s414nar36un901lmt5s719ev7netfqqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuUnPplR-Cnu_kee2eheCeAzfUCRQ_exA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328896552324-s414nar36un901lmt5s719ev7netfqqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
