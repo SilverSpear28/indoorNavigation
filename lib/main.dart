@@ -36,8 +36,12 @@ class _MyAppState extends State<MyApp> {
 
   _speak() async {
     List<Map<String, dynamic>> directions = [
-      {"room": "A to C", "direc": "NE", "dist": 38.52920913696289},
-      {"room": "C to H", "direc": "NW", "dist": 76.06083679199219}
+      {
+        "room": "Alpha room to Beta Room",
+        "direc": "North East",
+        "dist": 38.52920913696289
+      }
+      // {"room": "C to H", "direc": "NW", "dist": 76.06083679199219}
     ];
 
     String toSpeak = "Go from " +
@@ -51,18 +55,18 @@ class _MyAppState extends State<MyApp> {
     FlutterTts flutterTts1 = FlutterTts();
     var result = await flutterTts1.speak(toSpeak);
 
-    await new Future.delayed(const Duration(seconds: 2));
+    // await new Future.delayed(const Duration(seconds: 2));
 
-    String toSpeak1 = "Go from " +
-        directions[1]["room"] +
-        " in the " +
-        directions[1]["direc"] +
-        " for " +
-        directions[1]["dist"].toInt().toString() +
-        "meters";
+    // String toSpeak1 = "Go from " +
+    //     directions[1]["room"] +
+    //     " in the " +
+    //     directions[1]["direc"] +
+    //     " for " +
+    //     directions[1]["dist"].toInt().toString() +
+    //     "meters";
 
-    FlutterTts flutterTts2 = FlutterTts();
-    var result1 = await flutterTts2.speak(toSpeak1);
+    // FlutterTts flutterTts2 = FlutterTts();
+    // var result1 = await flutterTts2.speak(toSpeak1);
 
     // if (result == 1) setState(() => ttsState = TtsState.playing);
   }
