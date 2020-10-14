@@ -9,19 +9,23 @@ class Home extends StatefulWidget {
   }
 }
 
-class _HomeState extends State<Home> {
+class _HomeState extends State<Home>{
   int _currentIndex = 0;
   final List<Widget> _children = [
     QrScanner(),
     PlaceholderWidget(Colors.amber),
-    PlaceholderWidget(Colors.black)
+    PlaceholderWidget(Colors.black),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Navagar'),
       ),
+      // body: PageView(
+      //   children: _children,
+      // ),
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         onTap: onTabTapped,
