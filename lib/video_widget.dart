@@ -30,7 +30,9 @@ class _VideoState extends State<Video> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      body: FutureBuilder(
+      body: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
+        child: FutureBuilder(
         future: _initializeVideoFuture,
         builder: (context, snapshot) {
           if(snapshot.connectionState == ConnectionState.done) {
@@ -41,7 +43,7 @@ class _VideoState extends State<Video> {
             return Center(child: CircularProgressIndicator());
           }
         }
-      ),
+      )),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {

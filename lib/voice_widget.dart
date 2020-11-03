@@ -16,9 +16,15 @@ class _VoiceState extends State<Voice> {
 
   @override
   Widget build(BuildContext context) {
-    return OutlineButton(
+    return Center(
+      child : RaisedButton(
         onPressed: _speak,
-        child: Text("Directions"),
-        );
+        padding: EdgeInsets.all(16.0),
+        child: Text("Directions", style: TextStyle(
+          color: Colors.white,
+        ),),
+        color: Colors.blue,
+        ),
+    );
   }
 }
