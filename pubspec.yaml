@@ -27,5 +27,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
+  assets:
+    - assets/direction.mp4
   uses-material-design: true
