@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'placeholder_widget.dart';
 import 'qrscanner_widget.dart';
+import 'video_widget.dart';
+import 'voice_widget.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -13,8 +14,8 @@ class _HomeState extends State<Home>{
   int _currentIndex = 0;
   final List<Widget> _children = [
     QrScanner(),
-    PlaceholderWidget(Colors.amber),
-    PlaceholderWidget(Colors.black),
+    Video(),
+    Voice(),
   ];
 
   @override
