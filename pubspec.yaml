@@ -14,6 +14,8 @@ dependencies:
 
   flutter_tts: 1.2.7
 
+  video_player: ^0.11.1+4
+
   qrscan: 0.2.17
 
   google_sign_in: ^4.5.3
